@@ -1,7 +1,7 @@
 from yt_dlp import YoutubeDL as yd2
 
 
-link = input("Paste yt link here")
+link = input("Paste yt link here: \n")
 
 ydl_opts = {
     'format': 'm4a/bestaudio/best',
